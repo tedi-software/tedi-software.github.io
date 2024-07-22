@@ -28,7 +28,8 @@ url: "https://tedi-software.github.io" # the base hostname & protocol for your s
 github_username:  tedi-software
 
 # Build settings
-theme: minima
+# theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 
