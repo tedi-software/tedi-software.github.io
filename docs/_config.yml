@@ -18,20 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: TEDI
-email: tediadmin@outlook.com
+title: TEDI Docs
+email: tedi-help@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Integration Made Simple
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tedi-software.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+baseurl: ""
+url: "https://tedi-software.github.io"
+repository: tedi-software/tedi
+# twitter_username: 
 github_username:  tedi-software
 
 # Build settings
 # theme: minima
 theme: just-the-docs
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,3 +53,57 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# search_enabled: true
+
+# logo: "/assets/images/banner-small.ico"
+# color_scheme: dark
+# color_scheme: light
+color_scheme: custom
+
+favicon_ico: "/assets/images/banner-small.ico"
+
+footer_content: "Copyright &copy; 2024 TEDI, LLC"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+plugins:
+  - jekyll-seo-tag
+  # - jekyll-github-metadata
+  - jekyll-include-cache
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
