@@ -76,7 +76,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    color: yellow
+    color: green
   important:
     title: Important
     color: blue
@@ -107,3 +107,14 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "Find us on GitHub":
+    - "https://github.com/tedi-software/tedi"
+
+# For copy button on code
+enable_copy_code_button: true
