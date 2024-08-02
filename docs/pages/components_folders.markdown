@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Folder Layout
-# permalink: /components/
-# nav_order: 3
 parent: TEDI Components
+nav_order: 1
 ---
 
 ### Folder Layout
