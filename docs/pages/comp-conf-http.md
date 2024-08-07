@@ -18,11 +18,11 @@ nav_order: 6
 | **Setting**                    | **Description**          |
 |:------------------------------|:--------------------------|
 | `host`                         | http server hostname |
-| `port`             | the port to listen on |
-| `client.auth`             | unused |
-| `compression`             | enable compression |
-| `shutdown.max.wait.ms`             | at shutdown, max wait time in milliseconds for all in-flight requests to finish before the listener is closed |
-| `debug`                       | enables verbose http logging |
+| `port`                         | the port to listen on |
+| `client.auth`                  | unused |
+| `compression`                  | enable compression |
+| `shutdown.max.wait.ms`         | at shutdown, max wait time in milliseconds for all in-flight requests to finish before the listener is closed |
+| `debug`                        | enables verbose http logging |
 
 ---
 
