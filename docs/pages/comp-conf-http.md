@@ -57,7 +57,7 @@ The HTTP server has its own set of logs. You can customize the logging with the 
 | `tlog.log.dir`                | directory to write the log files |
 | `tlog.log.base.file.name`     | log filename prefix |
 | `tlog.log.base.file.ext`      | log filename extension |
-| `tlog.file.log.enabled`       | enable or disable logging entirely |
+| `tlog.file.log.enabled`       | enable or disable file logging |
 | `tlog.stdout.enabled`         | write the log to stdout |
 | `tlog.rotate.log`             | enable or disable log rotation |
 | `tlog.rotate.max.file.size`   | if log rotation is enabled, indicates the max file size in megabytes |
