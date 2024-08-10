@@ -41,7 +41,7 @@ nav_order: 9
 | `conn.tls.insecure.skip.verify`   | skip x509 hostname verification during tls-negotiations (do not enable in production environments)|
 | `conn.auth.jwt.user.encoded.nkey` | encrypted and encoded user nkey credential |
 | `conn.auth.jwt.system.key.alias`  | system key used to encrypt nkey |
-| `conn.auth.jwt.user.jwt.file`     | user credential jwt|
+| `conn.auth.jwt.user.jwt.file`     | user credential jwt (name of the file that includes the jwt)|
 
 **Configuration**
 {: .fs-4 }
