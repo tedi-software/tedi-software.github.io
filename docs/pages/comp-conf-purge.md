@@ -18,5 +18,5 @@ nav_order: 11
 
 | **Setting**                    | **Description**          |
 |:------------------------------|:--------------------------|
-| `purger.schedule`             | how often to scan and purge content. The age of the content is one in the same with frequency. If you run every 10-minutes, TEDI will purge content older than 10-minutes. If you run hourly, TEDI purges content older than an hour and so on and so forth. |
+| `purger.schedule`             | how often to scan for content to purge. The age of the content is dictated by the individual processors. |
 | `purger.debug`                | enable verbose logging |
