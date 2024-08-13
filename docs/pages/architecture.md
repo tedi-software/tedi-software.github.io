@@ -19,7 +19,7 @@ Central Intermediary
 {: .label .label-green }
 Middleware
 {: .label .label-yellow }
-Integration
+System Integration
 {: .label .label-red }
 
 ---

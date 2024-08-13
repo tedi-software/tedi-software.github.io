@@ -113,7 +113,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Find us on GitHub":
+  "TEDI on GitHub":
     - "https://github.com/tedi-software/tedi"
 
 # For copy button on code

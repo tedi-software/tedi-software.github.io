@@ -84,3 +84,15 @@ Here's a list of processors that TEDI currently supports.
 
 {: .highlight}
 > A processor falls into two basic categories : Receive (input) and Deliver (output).
+
+---
+
+**Common Configuration Idioms**
+
+One of the patterns you should readily adopt to keep your configs nice and tidy is to re-use common configurations across your processors.
+
+* inc_alert.properties - common alert settings
+* inc_common.properties - basic interface attributes
+* inc_error.properties - how to handle errors 
+
+You can define the `inc_` "include" files once and then pull them in your processor properties via the `.include` syntax.

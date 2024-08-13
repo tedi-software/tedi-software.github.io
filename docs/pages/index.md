@@ -9,7 +9,7 @@ permalink: /
 ## Welcome to TEDI Docs
 {: .fs-9 }
 
-TEDI makes integration simple.
+TEDI makes system integration simple.
 
 TEDI is an easy-to-use, cloud-native, high-performant, low-code **integration server** also referred to as middleware. TEDI is a low-cost solution to facilitate the movement of your important business data between business applications and services (A2A & B2B) internally within your organization and externally with your trading partners.
 
@@ -30,7 +30,7 @@ TEDI has a tiny footprint. It is written in Golang and can run as a stand-alone 
 
 ---
 
-### Enterprise Integration
+### Enterprise System Integration
 {: .fs-7 }
 
 Many middleware SaaS or COTS offerings are large, bulky, and have a steap learning curve. TEDI takes the opposite approach.

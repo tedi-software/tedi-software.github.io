@@ -8,4 +8,3 @@ has_children: true
 
 ### Building Integrations in TEDI
 {: .fs-7 }
-
