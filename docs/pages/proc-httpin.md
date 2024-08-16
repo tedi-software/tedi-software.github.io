@@ -14,11 +14,11 @@ This configuration represents a ***single*** HTTP API/interface. You can have mo
 
 ---
 
-**Settings**
+**Common Settings**
 {: .fs-4 }
 
 
-| **Common Setting**            | **Description**           |
+| **Setting**            | **Description**           |
 |:------------------------------|:--------------------------|
 | `service.type=httpin`         | indicates the type of processor |
 | `roles`                       | list of Roles (defined in `accounts.properties`) that have access to this API |
@@ -37,7 +37,7 @@ This configuration represents a ***single*** HTTP API/interface. You can have mo
 
 You can enforce headers on the inbound http requests. The syntax to set a list of headers is as follows: `{integer}.{setting}`
 
-| **Headers**                   | **Description**           |
+| **Settings**                   | **Description**           |
 |:------------------------------|:--------------------------|
 | `http.header.name`            | the name of the http header |
 | `http.header.default`         | the default value for the header if the caller does not set it |
@@ -71,14 +71,14 @@ To use and configure path parameters, you can set the name, default value, and w
 To indicate a segment in the URL is a path parameter use this syntax: `{name-of-the-path-parameter}`.
 
 
-| **Headers**                   | **Description**           |
+| **Settings**                   | **Description**           |
 |:------------------------------|:--------------------------|
 | `http.path.param.name`        | the name of the path parameter |
 | `http.path.param.default`     | the default value if not set by the caller |
 | `http.path.param.required`    | whether parameter is required |
 
 
-For example, if your URL was `/sales/invoice/{id}/{date}`, you could configure like so:
+For example, if your URL was `/sales/invoice/{id}/{date}`, you would configure like so:
 
 ```sh
 0.http.path.param.name    = "id"
@@ -97,7 +97,7 @@ For example, if your URL was `/sales/invoice/{id}/{date}`, you could configure l
 
 Query parameters can also be configure in a like manner as headers and path parameters.
 
-| **Headers**                   | **Description**           |
+| **Setting**                   | **Description**           |
 |:------------------------------|:--------------------------|
 | `http.query.param.name`        | the name of the query parameter |
 | `http.query.param.default`     | the default value for the query parameter if not set by the caller |
