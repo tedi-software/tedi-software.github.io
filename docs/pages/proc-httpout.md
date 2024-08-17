@@ -142,9 +142,74 @@ For example, if your URL was `/sales/invoice/{id}/{date}?{x}`, you could configu
 {: .fs-4 }
 
 TEDI supports the following auth schemes for http:
-* **none**
-* **basic auth**
-* **certificate**
-* **jws (jwt)**
-* **http signature**
 
+| **Auth**                      | **Description**           |
+|:------------------------------|:--------------------------|
+| `http.client.auth = basic`    | basic auth |
+| `http.client.auth = cert`     | certificate auth |
+| `http.client.auth = jws`      | json web signature (jwt) auth |
+| `http.client.auth = httpsig`  | http signature auth |
+
+---
+
+**Basic Auth**
+
+| **Setting**                    | **Description**           |
+|:-------------------------------|:--------------------------|
+| `http.client.auth = basic`     | use basic authorization |
+| `basic.auth.username`          | username |
+| `basic.auth.password`          | encrypted password |
+| `basic.auth.system.key.alias`  | system key used to encrypt and encode the password |
+
+
+---
+
+**HTTP Signature**
+
+| **Setting**                    | **Description**           |
+|:-------------------------------|:--------------------------|
+| `http.client.auth = httpsig`   | use http signature authorization |
+| `httpsig.debug`                | enables verbose logging |
+| `httpsig.key.name`             | physical key name |
+| `httpsig.key.id `              | maps to the keyId in the signature |
+| `httpsig.digest.algo`          | one-way hash algo to use, e.g. sha-256 |
+| `httpsig.signing.algo`         | hash algo to use for signing, e.g. hmac-sha256 |
+| `httpsig.headers`              | headers use to create the signature,  e.g. (request-target),Date,Digest. <br>note - anything beyond "(request-target),date, digest" must come from an actual header set in the request |
+
+
+---
+
+**Json Web Signature (JWT)**
+
+TEDI supports JWT authentication in the form of JWS. You can use symmetric or asymmetric keys.
+
+| **Setting**                    | **Description**           |
+|:-------------------------------|:--------------------------|
+| `http.client.auth = jws`       | use jws signature authorization |
+| **RSA Settings**                                                              |
+| `jws.algo`                     | RS256\| RS384\| RS512\| PS256\| PS384\| PS512\| HS256\| HS384\| HS512 |
+| `jws.private.key.name`         | the file name of the private key (pem encoded) |
+| `jws.public.key.name`          | the file name of the x509 certificate (pem encoded) |
+| `jws.header.kid`               | the key id |
+| **HMAC Settings**                                                              |
+| `jws.algo`                     | HS256 |
+| `jws.key.name`                 | the file name of the key |
+| `jws.header.kid`               | the key id |
+| **Claims**                                                                     |
+| `jws.claim.{integer}.name`     | name of the static claim - you can have any number you like |
+| `jws.claim.{integer}.value`    | value of the static claim |
+| `jws.claim.iss`                | jwt issuer |
+| `jws.claim.aud`                | jwt audience |
+| `jws.claim.sub`                | jwt subject/user |
+| `jws.claim.exp`                | jwt expiration - duration jwt is valid for (now + exp) |
+| `jws.claim.jti`                | jwt unique identifier - default: RequestId |
+
+
+---
+
+**Certificate**
+
+| **Setting**                    | **Description**           |
+|:-------------------------------|:--------------------------|
+| `http.client.auth = cert`      | use x509 cert authorization |
+| `cert.name`                    | file name of the cert (cert must be pem encoded) |
