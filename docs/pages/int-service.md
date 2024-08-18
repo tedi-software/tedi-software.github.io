@@ -67,13 +67,13 @@ Here's a list of processors that TEDI currently supports.
 |:--------------------|:----------------|:--------------|:-----------------------------------
 | `cmdin`             | yes             | timer         |`cmdin` "command input" allows you to execute code outside of TEDI and use the output of the external function to be the input to the workflow. |
 | `cmdout`            | no              | n/a           | `cmdout` "command output" allows you to have your own custom deliver-side logic. The result of the external call indicates success or failure. |
-| `pgp`               | no              | n/a           | `pgp` is a processor wrapped around the "pgp" software used to encrypt or decrypt data. |
 | `httpin`            | yes             | http request  | `httpin` "http input" is used to receive inbound http requests (inbound relative to TEDI). |
 | `httpout`           | no              | n/a           | `httpout` "http output" is used to make http requests (outbound from TEDI). |
 | `libxslt`           | no              | n/a           | `libxslt` is used to perform xslt transformations via *libxslt* library. |
 | `natsin_pull`       | yes             | timer         | `natsin_pull` "nats input PULL" is used to fetch messages from NATS JetStream in a pull-based manner. |
 | `natsin_push`       | yes             | request       | `natsin_push` "nats input PUSH" is used to for NATS Core request/reply messaging.  |
 | `natsout`           | no              | n/a           | `natsout` "nats output" is used to publish messages to NATS (Core or JetStream). |
+| `pgp`               | no              | n/a           | `pgp` is a processor wrapped around the "pgp" software used to encrypt or decrypt data. |
 | `sftpin`            | yes             | timer         | `sftpin` "sftp input" is used to receive files via the sftp protocol. |
 | `sftpout`           | no              | n/a           | `sftpout` "sftp output" is to deliver files via the sftp protocol. |
 | `sqlin`             | yes             | timer           | `sqlin` "sql input" is used to receive (read) records from a database. |
@@ -83,7 +83,11 @@ Here's a list of processors that TEDI currently supports.
 
 
 {: .highlight}
-> A processor falls into two basic categories : Receive (input) and Deliver (output).
+> A **processor** falls into three basic categories: 
+> 
+> 1. **Receive:** the first processor in your workflow; acts as a controller; provides the input
+> 2. **Intermediate:** intermediate processor that performs some function on the content, e.g. pgp, xslt, etc.
+> 3. **Deliver:** the last processor in your workflow; performs final delivery of content
 
 ---
 
