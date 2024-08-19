@@ -20,9 +20,8 @@
 
 title: TEDI Docs
 email: tedi-help@outlook.com
-tagline: systems integration software
 description: >- # this means to ignore newlines until "baseurl:"
-systems integration software
+  systems integration software
 baseurl: ""
 url: "https://tedi-software.github.io"
 repository: tedi-software/tedi
