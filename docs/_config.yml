@@ -21,7 +21,9 @@
 title: TEDI Docs
 email: tedi-help@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  systems integration software
+  enterprise systems integration software 
+  middleware microservices eda 
+  event driven architecture
 baseurl: ""
 url: "https://tedi-software.github.io"
 repository: tedi-software/tedi
@@ -90,7 +92,6 @@ callouts:
     title: Warning
     color: red
 
-  # - jekyll-github-metadata
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
