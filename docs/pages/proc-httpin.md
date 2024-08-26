@@ -30,7 +30,7 @@ This configuration represents a ***single*** HTTP API/interface. You can have mo
 | `http.return.response`        | indicates a body is expected to be returned to the caller |
 | `http.return.headers`        | list of headers from the response to return to the caller - this is to tie into an httpout response if there was one to main continuity |
 
---
+---
 
 **Headers**
 {: .fs-4 }
