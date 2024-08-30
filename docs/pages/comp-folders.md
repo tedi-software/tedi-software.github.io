@@ -2,6 +2,7 @@
 layout: page
 title: Folder Layout
 parent: TEDI Components
+permalink: /components/folders
 nav_order: 1
 ---
 

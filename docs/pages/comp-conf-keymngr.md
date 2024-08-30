@@ -2,6 +2,7 @@
 layout: page
 title: KeyManager Properties
 parent: TEDI Components
+permalink: /components/keymngr
 nav_order: 7
 ---
 

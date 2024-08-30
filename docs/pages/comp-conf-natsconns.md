@@ -2,6 +2,7 @@
 layout: page
 title: NATS Connection Properties
 parent: TEDI Components
+permalink: /components/nats
 nav_order: 9
 ---
 

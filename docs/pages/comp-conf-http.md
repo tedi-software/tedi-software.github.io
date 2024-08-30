@@ -2,6 +2,7 @@
 layout: page
 title: HTTP Properties
 parent: TEDI Components
+permalink: /components/http
 nav_order: 6
 ---
 

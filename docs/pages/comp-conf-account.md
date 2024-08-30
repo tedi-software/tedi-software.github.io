@@ -2,6 +2,7 @@
 layout: page
 title: Account Properties
 parent: TEDI Components
+permalink: /components/accounts
 nav_order: 3
 ---
 

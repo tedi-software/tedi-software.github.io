@@ -2,6 +2,7 @@
 layout: page
 title: Alert Properties
 parent: TEDI Components
+permalink: /components/alerts
 nav_order: 4
 ---
 

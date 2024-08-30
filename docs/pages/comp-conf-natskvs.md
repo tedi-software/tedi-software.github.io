@@ -2,6 +2,7 @@
 layout: page
 title: NATS KVS Properties
 parent: TEDI Components
+permalink: /components/natskvs
 nav_order: 10
 ---
 

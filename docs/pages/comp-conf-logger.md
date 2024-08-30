@@ -2,6 +2,7 @@
 layout: page
 title: Logger Properties
 parent: TEDI Components
+permalink: /components/logger
 nav_order: 8
 ---
 

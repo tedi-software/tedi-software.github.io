@@ -2,6 +2,7 @@
 layout: page
 title: Purging Properties
 parent: TEDI Components
+permalink: /components/purge
 nav_order: 11
 ---
 

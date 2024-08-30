@@ -2,6 +2,7 @@
 layout: page
 title: CertManager Properties
 parent: TEDI Components
+permalink: /components/certmngr
 nav_order: 5
 ---
 

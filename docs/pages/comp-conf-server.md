@@ -2,6 +2,7 @@
 layout: page
 title: Server Properties
 parent: TEDI Components
+permalink: /components/server
 nav_order: 12
 ---
 

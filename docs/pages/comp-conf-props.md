@@ -2,6 +2,7 @@
 layout: page
 title: Properties Files
 parent: TEDI Components
+permalink: /components/properties
 nav_order: 2
 ---
 

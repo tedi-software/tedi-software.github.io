@@ -2,6 +2,7 @@
 layout: page
 title: Configuring TEDI
 parent: TEDI Components
+permalink: /components/configuration
 nav_order: 2
 ---
 

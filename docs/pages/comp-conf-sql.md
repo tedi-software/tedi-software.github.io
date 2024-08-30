@@ -2,6 +2,7 @@
 layout: page
 title: SQL Datasource Properties
 parent: TEDI Components
+permalink: /components/datasources
 nav_order: 13
 ---
 
