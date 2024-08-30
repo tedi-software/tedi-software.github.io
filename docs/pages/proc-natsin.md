@@ -2,6 +2,7 @@
 layout: page
 title: natsin
 parent: Processors
+permalink: /processors/natsin
 nav_order: 9
 ---
 

@@ -2,6 +2,7 @@
 layout: page
 title: httpin
 parent: Processors
+permalink: /processors/httpin
 nav_order: 7
 ---
 

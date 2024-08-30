@@ -2,6 +2,7 @@
 layout: page
 title: sftpin
 parent: Processors
+permalink: /processors/sftpin
 nav_order: 12
 ---
 

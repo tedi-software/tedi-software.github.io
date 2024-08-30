@@ -2,6 +2,7 @@
 layout: page
 title: Service Properties
 parent: Building Integrations
+permalink: /integrations/services
 nav_order: 4
 ---
 

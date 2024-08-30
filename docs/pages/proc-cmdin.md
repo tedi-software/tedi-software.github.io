@@ -2,6 +2,7 @@
 layout: page
 title: cmdin
 parent: Processors
+permalink: /processors/cmdin
 nav_order: 5
 ---
 

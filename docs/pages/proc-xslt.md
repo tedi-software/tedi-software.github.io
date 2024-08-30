@@ -2,6 +2,7 @@
 layout: page
 title: xslt
 parent: Processors
+permalink: /processors/xslt
 nav_order: 15
 ---
 

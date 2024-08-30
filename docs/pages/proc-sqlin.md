@@ -2,6 +2,7 @@
 layout: page
 title: sqlin
 parent: Processors
+permalink: /processors/sqlin
 nav_order: 14
 ---
 

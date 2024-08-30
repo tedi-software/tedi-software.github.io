@@ -2,6 +2,7 @@
 layout: page
 title: httpout
 parent: Processors
+permalink: /processors/httpout
 nav_order: 8
 ---
 

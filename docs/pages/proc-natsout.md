@@ -2,6 +2,7 @@
 layout: page
 title: natsout
 parent: Processors
+permalink: /processors/natsout
 nav_order: 10
 ---
 

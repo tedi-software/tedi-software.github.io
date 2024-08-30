@@ -2,6 +2,7 @@
 layout: page
 title: Common Properties
 parent: Building Integrations
+permalink: /integrations/common
 nav_order: 6
 ---
 

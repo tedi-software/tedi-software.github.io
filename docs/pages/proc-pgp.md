@@ -2,6 +2,7 @@
 layout: page
 title: pgp
 parent: Processors
+permalink: /processors/pgp
 nav_order: 11
 ---
 

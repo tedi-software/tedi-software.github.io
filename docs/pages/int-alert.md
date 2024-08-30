@@ -2,6 +2,7 @@
 layout: page
 title: Alert Properties
 parent: Building Integrations
+permalink: /integrations/alert
 nav_order: 5
 ---
 

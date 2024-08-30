@@ -2,6 +2,7 @@
 layout: page
 title: cmdout
 parent: Processors
+permalink: /processors/cmdout
 nav_order: 6
 ---
 

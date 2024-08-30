@@ -2,6 +2,7 @@
 layout: page
 title: Error Properties
 parent: Building Integrations
+permalink: /integrations/errors
 nav_order: 7
 ---
 

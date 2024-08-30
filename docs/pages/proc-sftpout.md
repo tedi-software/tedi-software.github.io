@@ -2,6 +2,7 @@
 layout: page
 title: sftpout
 parent: Processors
+permalink: /processors/sftpout
 nav_order: 13
 ---
 
