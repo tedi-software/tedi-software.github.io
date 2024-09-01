@@ -6,7 +6,7 @@ permalink: /integrations/alert
 nav_order: 5
 ---
 
-### Alert Property Files
+# Alert Property Files
 {: .fs-7 }
 
 **`inc_alert.properties`** is an idiom you can adopt to configure all of the **alert** settings across your workflows instead of configuring on a per processor basis - which you can do if you choose.

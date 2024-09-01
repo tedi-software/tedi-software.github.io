@@ -6,7 +6,7 @@ permalink: /integrations/common
 nav_order: 6
 ---
 
-### Common Property Files
+# Common Property Files
 {: .fs-7 }
 
 **`inc_common.properties`** is an idiom you can adopt to configure all of the **common** settings across your workflows instead of configuring on a per processor basis - which you can do if you choose.

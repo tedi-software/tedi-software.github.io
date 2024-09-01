@@ -6,7 +6,7 @@ permalink: /processors/pgp
 nav_order: 11
 ---
 
-### pgp Processor
+# pgp Processor
 {: .fs-7 }
 
 The `pgp` processor is used to encrypt or decrypt files with the gpg *(The GNU Privacy Guard - gpg2)* command-line utility.

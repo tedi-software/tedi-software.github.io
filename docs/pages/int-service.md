@@ -6,7 +6,7 @@ permalink: /integrations/services
 nav_order: 4
 ---
 
-### Service Property Files
+# Service Property Files
 {: .fs-7 }
 
 **`service.properties`** are to use build workflows in TEDI.

@@ -6,7 +6,7 @@ permalink: /processors/sftpin
 nav_order: 12
 ---
 
-### sftpin Processor
+# sftpin Processor
 {: .fs-7 }
 
 **`sftpin`** is a controller processor used to retrieve (receive) files via the *sftp* protocol.

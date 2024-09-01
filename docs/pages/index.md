@@ -6,8 +6,8 @@ description: "TEDI - integration made simple"
 permalink: /
 ---
 
-## Welcome to TEDI Docs
-{: .fs-9 }
+# Welcome to TEDI Docs
+{: .fs-7 }
 
 TEDI makes system integration simple.
 

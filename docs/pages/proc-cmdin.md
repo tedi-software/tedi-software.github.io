@@ -6,7 +6,7 @@ permalink: /processors/cmdin
 nav_order: 5
 ---
 
-### cmdin Processor
+# cmdin Processor
 {: .fs-7 }
 
 **`cmdin`** is the processor you can use to run an external command or program to kickstart your integration. This processor will take the output of the external call and use it as the input to the next processor in your workflow. The input can be read thru stdin or a via a file.

@@ -6,7 +6,7 @@ permalink: /processors/sqlin
 nav_order: 14
 ---
 
-### sqlin Processor
+# sqlin Processor
 {: .fs-7 }
 
 **`sqlin`** is a controller processor used to read records from a database.

@@ -6,7 +6,7 @@ permalink: /integrations/errors
 nav_order: 7
 ---
 
-### Error Property Files
+# Error Property Files
 {: .fs-7 }
 
 **`inc_error.properties`** is an idiom you can adopt to configure all of the common **error** settings across your workflows instead of configuring on a per processor basis - which you can do if you choose.

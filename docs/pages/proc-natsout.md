@@ -6,7 +6,7 @@ permalink: /processors/natsout
 nav_order: 10
 ---
 
-### natsout Processor
+# natsout Processor
 {: .fs-7 }
 
 The `natsout` processor is used to publish messages to NATS via Core or JetStream.

@@ -6,7 +6,7 @@ permalink: /processors/natsin
 nav_order: 9
 ---
 
-### natsin Processor
+# natsin Processor
 {: .fs-7 }
 
 The `natsin` processor is used to subscribe to messages from NATS.

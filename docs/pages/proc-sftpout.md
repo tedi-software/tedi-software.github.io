@@ -6,7 +6,7 @@ permalink: /processors/sftpout
 nav_order: 13
 ---
 
-### sftpout Processor
+# sftpout Processor
 {: .fs-7 }
 
 **`sftpin`** is a processor used to deliver files via the *sftp* protocol.

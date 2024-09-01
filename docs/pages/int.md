@@ -6,5 +6,5 @@ nav_order: 4
 has_children: true
 ---
 
-### Building Integrations in TEDI
+# Building Integrations in TEDI
 {: .fs-7 }

@@ -7,5 +7,5 @@ nav_order: 1
 ---
 
 
-### Crypto-Buddy
+# Crypto-Buddy
 {: .fs-7 }

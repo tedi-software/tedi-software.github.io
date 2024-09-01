@@ -6,7 +6,7 @@ nav_order: 3
 has_children: true
 ---
 
-### TEDI Components
+# TEDI Components
 {: .fs-7 }
 
 
