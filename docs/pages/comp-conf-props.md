@@ -6,7 +6,7 @@ permalink: /components/properties
 nav_order: 2
 ---
 
-### Properties Files
+# Properties Files
 {: .fs-7 }
 
 **`file-name.properties`** are simple key=value files used to configure all things in TEDI.

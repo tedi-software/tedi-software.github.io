@@ -6,7 +6,7 @@ permalink: /components/http
 nav_order: 6
 ---
 
-### HTTP Properties
+# HTTP Properties
 {: .fs-7 }
 
 **`http.properties`** is used to configure the HTTP listener for TEDI.

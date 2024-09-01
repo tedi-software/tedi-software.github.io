@@ -6,7 +6,7 @@ permalink: /components/certmngr
 nav_order: 5
 ---
 
-### CertManager Properties
+# CertManager Properties
 {: .fs-7 }
 
 **`certmanager.properties`** is used to configure certificates (x509 keypairs), ca-trustbundles, and various TLS settings for secure connections in TEDI.

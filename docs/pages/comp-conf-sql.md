@@ -6,7 +6,7 @@ permalink: /components/datasources
 nav_order: 13
 ---
 
-### SQL DataSource Properties
+# SQL DataSource Properties
 {: .fs-7 }
 
 **`sql.datasources.properties`** is used to configure database connection strings and other properties (RDBMS / SQL) 

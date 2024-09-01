@@ -6,7 +6,7 @@ permalink: /components/configuration
 nav_order: 2
 ---
 
-### Configuring TEDI
+# Configuring TEDI
 {: .fs-7 }
 
 The `conf` directory is where TEDI stores its configuration files for various features and functions.
@@ -28,7 +28,7 @@ tedi/conf
 ```
 
 
-### **Config Files**
+# **Config Files**
 {: .fs-5 }
 
 | **Config**                        | **Description**               |

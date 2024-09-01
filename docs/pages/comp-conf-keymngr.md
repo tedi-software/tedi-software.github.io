@@ -6,7 +6,7 @@ permalink: /components/keymngr
 nav_order: 7
 ---
 
-### KeyManager Properties
+# KeyManager Properties
 {: .fs-7 }
 
 **`keymanager.properties`** is used to configure keys for encryption and decryption operations.

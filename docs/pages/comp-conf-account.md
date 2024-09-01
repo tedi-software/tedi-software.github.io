@@ -6,7 +6,7 @@ permalink: /components/accounts
 nav_order: 3
 ---
 
-### Account Properties
+# Account Properties
 {: .fs-7 }
 
 The `account.properties` configuration is used to define Users in TEDI and their respective auth schemes (JWT, Basic, etc). 

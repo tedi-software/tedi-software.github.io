@@ -6,7 +6,7 @@ permalink: /components/nats
 nav_order: 9
 ---
 
-### NATS Connection Properties
+# NATS Connection Properties
 {: .fs-7 }
 
 **`nats_connections.properties`** is used to configure one or more NATS connections for TEDI to use.

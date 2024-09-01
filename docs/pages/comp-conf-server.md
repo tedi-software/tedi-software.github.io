@@ -6,7 +6,7 @@ permalink: /components/server
 nav_order: 12
 ---
 
-### Server Properties
+# Server Properties
 {: .fs-7 }
 
 **`server.properties`** is used to configure a few basic global features in TEDI.

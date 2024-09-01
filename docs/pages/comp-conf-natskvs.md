@@ -6,7 +6,7 @@ permalink: /components/natskvs
 nav_order: 10
 ---
 
-### NATS KVS Properties
+# NATS KVS Properties
 {: .fs-7 }
 
 **`nats_kvs.properties`** is used to configure global locking used by SFTP-based integrations

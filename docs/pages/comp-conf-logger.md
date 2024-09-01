@@ -6,7 +6,7 @@ permalink: /components/logger
 nav_order: 8
 ---
 
-### Logger Properties
+# Logger Properties
 {: .fs-7 }
 
 **`logger.properties`** is used to configure logging in TEDI.

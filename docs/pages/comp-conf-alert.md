@@ -6,7 +6,7 @@ permalink: /components/alerts
 nav_order: 4
 ---
 
-### Alert Properties
+# Alert Properties
 {: .fs-7 }
 
 The `alert.properties` is used to configure the alerting mechanics for TEDI when errors arise.
