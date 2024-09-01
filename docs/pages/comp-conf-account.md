@@ -47,7 +47,7 @@ Users have a few basic properties:
 * auth scheme: basic, jwt, http-signature, certificate
 
 
-You must use [crypto-buddy]({{site.baseurl}}/tools/tools_cryptobuddy) to hash and encode secrets and passwords. 
+You must use [crypto-buddy]({{site.baseurl}}/tools/cryptobuddy) to hash and encode secrets and passwords. 
 
 {: .highlight }
 > A User can only have one auth mechanic.
