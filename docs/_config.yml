@@ -21,9 +21,7 @@
 title: TEDI Docs
 email: tedi-help@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  enterprise systems integration software 
-  middleware microservices eda 
-  event driven architecture
+ TEDI is enterprise-grade systems integration software (middleware), cloud native, microservice based, naturally employs event-driven architectural patterns, is configuration driven, extensable, and out-of-the-box very easy to use.
 baseurl: ""
 url: "https://tedi-software.github.io"
 repository: tedi-software/tedi
