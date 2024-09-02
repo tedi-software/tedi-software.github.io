@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 description: "TEDI - integration made simple"
-permalink: /
+permalink: /home/
 ---
 
 # Welcome to TEDI Docs
