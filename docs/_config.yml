@@ -54,7 +54,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-search_enabled: true
+# search_enabled: true
 
 # logo: "/assets/images/banner-small.ico"
 # color_scheme: dark
