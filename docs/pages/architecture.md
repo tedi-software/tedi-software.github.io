@@ -25,7 +25,7 @@ System Integration
 ---
 
 
-# **Deployment**
+## **Deployment**
 {: .fs-5 }
 
 TEDI is effectively a hub-n-spoke architectural model and inherintly employs an event driven architecture. It can act as a central intermediary unto itself or
@@ -35,7 +35,7 @@ TEDI is functionally a layer-7 application, so for your network ingress and egre
 
 ---
 
-# **TEDI as a Platform**
+## **TEDI as a Platform**
 {: .fs-5 }
 
 Middleware is supposed to plumb together software applications in a transparent way. The Producer and Consumer of data should be unaware, *and without care*, that the data is being transported from them or to them, in some manner that 
