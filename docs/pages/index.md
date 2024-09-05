@@ -30,7 +30,7 @@ TEDI has a tiny footprint. It is written in Golang and can run as a stand-alone 
 
 ---
 
-# Enterprise System Integration
+## Enterprise System Integration
 {: .fs-7 }
 
 Many middleware SaaS or COTS offerings are large, bulky, and have a steap learning curve. TEDI takes the opposite approach.
@@ -41,7 +41,7 @@ The driving philosophy behind TEDI is to be lightweight, easy to use, with speed
 > TEDI is **lightweight**, **easy to use**, **configuration driven**
 
 
-# Getting Started
+## Getting Started
 {: .fs-7 }
 
 Getting started with TEDI is easy. To begin your journey:
