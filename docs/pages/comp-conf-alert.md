@@ -11,6 +11,7 @@ nav_order: 4
 
 The `alert.properties` is used to configure the alerting mechanics for TEDI when errors arise.
 
+---
 
 **Email Settings**
 {: .fs-4 }
