@@ -18,6 +18,7 @@ The `natsout` processor is used to publish messages to NATS via Core or JetStrea
 {: .fs-4 }
 
 
+
 | **Setting**                   | **Description**           |
 |:------------------------------|:--------------------------|
 | `service.type=natsout`        | set the processor type |
