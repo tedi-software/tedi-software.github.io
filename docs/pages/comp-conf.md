@@ -28,7 +28,7 @@ tedi/conf
 ```
 
 
-# **Config Files**
+## **Config Files**
 {: .fs-5 }
 
 | **Config**                        | **Description**               |
