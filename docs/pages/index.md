@@ -74,7 +74,9 @@ Implementing TEDI can have transformative benefits for your business:
 
 2. **Data Consolidation**: Aggregate customer data from multiple channels (e.g., CRM, support, marketing) into a single, unified view.
 
-3. **Cross-Department Collaboration**: Automate processes between HR, finance, and operations, such as synchronizing payroll with timesheets or integrating expense management with accounting systems.
+3. **Cross-Department Collaboration (A2A)**: Automate processes between HR, finance, and operations, such as synchronizing payroll with timesheets or integrating expense management with accounting systems.
+
+4. **Business-to-Business (B2B)**: Integrate and exchange documents with 3rd party logistics, supply chains, anti-fraud, invoicing and orders, all-things business intelligence and data analytics, and much much more.
 
 ---
 
