@@ -10,6 +10,18 @@ nav_order: 2
 
 ---
 
+TEDI’s flexibility, scalability, and capability to adapt to various integration scenarios, making it an effective solution for modern enterprise environments.
+
+The landscape page provides a comprehensive view of the TEDI software ecosystem, highlighting its architecture and the various components that facilitate enterprise application integration (EAI). It outlines the key functionalities and integrations available within the TEDI framework, showcasing how it supports both application-to-application (A2A) and business-to-business (B2B) integrations.
+
+Key elements featured include:
+
+* **Central Integration Hub (TEDI)**: Serves as the core of the architecture, managing data flow and communication between different systems.
+* **Protocols and Connectors**: Demonstrates the range of supported protocols, including SFTP, HTTPS, and database connections, enabling diverse integrations.
+* **Processors and Workflows**: Details how TEDI handles data transformations and orchestrates processes to streamline integration tasks.
+
+---
+
 <img src="../../assets/images/adiag.png" alt="Tedi" height="1920" width="1080">
 
 
@@ -23,6 +35,7 @@ System Integration
 {: .label .label-red }
 
 ---
+
 
 
 ## **Deployment**
