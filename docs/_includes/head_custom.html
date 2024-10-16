@@ -18,8 +18,6 @@ customized titles
 
 {% if page.title == "Home" %}
     <title>{{ page.title | escape }} | {{ site.title | escape }} | Enterprise Systems Integration Software</title>
-{% elsif page.title == "Architectural Landscape" %}
-    <title>{{ page.title | escape }} | {{ site.title | escape }} | Enterprise Systems Integration Software</title>
 {% else %}
-    <title>{{ page.title | escape }} | {{ site.title | escape }} | Enterprise Systems Integration Software</title>
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
 {% endif %}
