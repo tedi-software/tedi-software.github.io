@@ -17,7 +17,23 @@ customized titles
 
 
 {% if page.title == "Home" %}
-    <title>{{ page.title | escape }} | {{ site.title | escape }} | Enterprise Systems Integration Software</title>
+    <title>TEDI | Enterprise Systems Integration Software</title>
+
+{% elsif page.title == "Architectural Landscape" %}
+    <title>TEDI | A2A, B2B, Middleware, Central Intermediary, Cloud</title>
+
+{% elsif page.title == "TEDI Components" %}
+    <title>TEDI | Protocols, Data Transforms, Process Automation, EDA</title>
+
+{% elsif page.title == "Building Integrations" %}
+    <title>TEDI | Low code Integration, Config Driven, Adapters, Transforms</title>
+
+{% elsif page.title == "Processors" %}
+    <title>TEDI | HTTP, SFTP, Oracle, SQLServer, PGP, XSLT, NATS</title>
+
+{% elsif page.title == "Feedback" %}
+    <title>TEDI | how can TEDI support your systems integration needs</title>
+
 {% else %}
-    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    <title>TEDI | {{ page.title | escape }}</title>
 {% endif %}
