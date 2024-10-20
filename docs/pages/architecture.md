@@ -12,7 +12,7 @@ nav_order: 2
 
 TEDI’s flexibility, scalability, and capability to adapt to various integration scenarios, making it an effective solution for modern enterprise environments.
 
-The landscape page provides a comprehensive view of the TEDI software ecosystem, highlighting its architecture and the various components that facilitate enterprise application integration (EAI). It outlines the key functionalities and integrations available within the TEDI framework, showcasing how it supports both application-to-application (A2A) and business-to-business (B2B) integrations.
+The landscape page provides a comprehensive view of the TEDI software ecosystem, highlighting its architecture and the various components that facilitate enterprise systems integration (ESI). It outlines the key functionalities and integrations available within the TEDI framework, showcasing how it supports both application-to-application (A2A) and business-to-business (B2B) integrations.
 
 Key elements featured include:
 

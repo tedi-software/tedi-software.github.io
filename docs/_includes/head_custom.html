@@ -17,23 +17,81 @@ customized titles
 
 
 {% if page.title == "Home" %}
-    <title>TEDI | Enterprise Systems Integration Software</title>
+<title>TEDI | Enterprise Systems Integration Software</title>
+
 
 {% elsif page.title == "Architectural Landscape" %}
-    <title>TEDI | A2A, B2B, Middleware, Central Intermediary, Cloud</title>
+<title>TEDI | A2A, B2B, Middleware, Central Intermediary, Cloud</title>
+
 
 {% elsif page.title == "TEDI Components" %}
-    <title>TEDI | Protocols, Data Transforms, Process Automation, EDA</title>
+<title>TEDI | Protocols, Data Transforms, Process Automation, EDA</title>
+
+    {% elsif page.title == "Folder Layout" %}
+    <title>TEDI | directories and files, organization of configs</title>
+
+    {% elsif page.title == "Properties Files" %}
+    <title>TEDI | Key-Value configuration format to define settings</title>
+
+    {% elsif page.title == "Configuring TEDI" %}
+    <title>TEDI | Configuration for secrets, datasources, logging, etc</title>
+
+    {% elsif page.title == "Account Properties" %}
+    <title>TEDI | User roles, authentication and authorization settings</title>
+
+    {% elsif page.title == "Alert Properties" %}
+    <title>TEDI | DevOps alerting methods for errors and failures</title>
+
+    {% elsif page.title == "CertManager Properties" %}
+    <title>TEDI | Configure certs, trustbundles, and TLS settings</title>
+
+    {% elsif page.title == "HTTP Properties" %}
+    <title>TEDI | HTTPS listener and logging settings for REST APIs</title>
+
+    {% elsif page.title == "KeyManager Properties" %}
+    <title>TEDI | RSA and AES key settings to encrypt secrets, passwords</title>
+
+    {% elsif page.title == "Logger Properties" %}
+    <title>TEDI | Logging framework parameters to monitor and debug</title>
+
+    {% elsif page.title == "NATS Connection Properties" %}
+    <title>TEDI | Configure one or more NATS connections</title>
+
+    {% elsif page.title == "NATS KVS Properties" %}
+    <title>TEDI | NATS key-value store settings for sftp global locking</title>
+
+    {% elsif page.title == "Purging Properties" %}
+    <title>TEDI | Settings to control when content is deleted</title>
+
+    {% elsif page.title == "Server Properties" %}
+    <title>TEDI | Configure global settings for the integration server</title>
+
+    {% elsif page.title == "SQL DataSource Properties" %}
+    <title>TEDI | Settings for SQL Server, MySQL, Oracle, PostgreSQL</title>
+
+    
+
+    
+    
+    
+
+    
+    
+    
+        
 
 {% elsif page.title == "Building Integrations" %}
-    <title>TEDI | Low code Integration, Config Driven, Adapters, Transforms</title>
+<title>TEDI | Low code Integration, Config Driven, Adapters, Transforms</title>
 
 {% elsif page.title == "Processors" %}
-    <title>TEDI | HTTP, SFTP, Oracle, SQLServer, PGP, XSLT, NATS</title>
+<title>TEDI | HTTP, SFTP, Oracle, SQLServer, PGP, XSLT, NATS</title>
+
+
+
 
 {% elsif page.title == "Feedback" %}
-    <title>TEDI | how can TEDI support your systems integration needs</title>
+<title>TEDI | how can TEDI support your systems integration needs</title>
 
 {% else %}
-    <title>TEDI | {{ page.title | escape }}</title>
+<title>TEDI | {{ page.title | escape }}</title>
 {% endif %}
