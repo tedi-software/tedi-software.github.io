@@ -66,27 +66,71 @@ customized titles
     {% elsif page.title == "Server Properties" %}
     <title>TEDI | Configure global settings for the integration server</title>
 
-    {% elsif page.title == "SQL DataSource Properties" %}
+    {% elsif page.title == "SQL Datasource Properties" %}
     <title>TEDI | Settings for SQL Server, MySQL, Oracle, PostgreSQL</title>
 
-    
-
-    
-    
-    
-
-    
-    
-    
-        
 
 {% elsif page.title == "Building Integrations" %}
 <title>TEDI | Low code Integration, Config Driven, Adapters, Transforms</title>
 
+    {% elsif page.title == "Service Properties" %}
+    <title>TEDI | Service properties are used to create your workflows</title>
+
+    {% elsif page.title == "Alert Properties" %}
+    <title>TEDI | Configure error notifications across your workflows</title>
+
+    {% elsif page.title == "Common Properties" %}
+    <title>TEDI | Configure global settings across your workflows</title>
+
+    {% elsif page.title == "Error Properties" %}
+    <title>TEDI | Configure common error settings across your workflows</title>
+
+
 {% elsif page.title == "Processors" %}
 <title>TEDI | HTTP, SFTP, Oracle, SQLServer, PGP, XSLT, NATS</title>
 
+    {% elsif page.title == "cmdin" %}
+    <title>TEDI | Run an external command to provide custom logic</title>
 
+    {% elsif page.title == "cmdout" %}
+    <title>TEDI | Run an external command in your workflow integration</title>
+
+    {% elsif page.title == "httpin" %}
+    <title>TEDI | Adapter to integrate with RESTful HTTP APIs</title>
+
+    {% elsif page.title == "httpout" %}
+    <title>TEDI | Make HTTPs requests in your integration</title>
+
+    {% elsif page.title == "natsin" %}
+    <title>TEDI | Integrate with NATS for eventing and messaging</title>
+
+    {% elsif page.title == "natsout" %}
+    <title>TEDI | Publish messages to NATS Core or JetStream</title>
+
+    {% elsif page.title == "pgp" %}
+    <title>TEDI | Easily add file encryption to your integrations with PGP</title>
+
+    {% elsif page.title == "sftpin" %}
+    <title>TEDI | Receive files via the sftp protocol</title>
+
+    {% elsif page.title == "sftpout" %}
+    <title>TEDI | Setup your workflow to deliver files to an sftp site</title>
+
+    {% elsif page.title == "sqlin" %}
+    <title>TEDI | Create integrations to read records from a database</title>
+
+    {% elsif page.title == "sqlout" %}
+    <title>TEDI | Write data to a database as part of your workflows</title>
+
+    {% elsif page.title == "xslt" %}
+    <title>TEDI | Add complex and powerful data transformations via xslt</title>
+
+
+{% elsif page.title == "Tools" %}
+<title>TEDI | Framework tools and utilities</title>
+    
+    {% elsif page.title == "Crypto-Buddy" %}
+    <title>TEDI | Tool to encrypt and decrypt keys and passwords</title>
 
 
 {% elsif page.title == "Feedback" %}
