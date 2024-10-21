@@ -4,6 +4,7 @@ title: Building Integrations
 permalink: /integrations/
 nav_order: 4
 has_children: true
+description: "TEDI's integration capabilities, supporting A2A and B2B connections with various protocols, ensures efficient workflow automations between systems"
 ---
 
 # Building Integrations in TEDI

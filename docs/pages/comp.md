@@ -4,6 +4,7 @@ title: TEDI Components
 permalink: /components/
 nav_order: 3
 has_children: true
+description: "TEDI's modular, flexible, and scalable architecture powers seamless A2A and B2B enterprise integrations, supporting diverse systems with ease"
 ---
 
 # TEDI Components

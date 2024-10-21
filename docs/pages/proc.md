@@ -4,6 +4,7 @@ title: Processors
 permalink: /processors/
 nav_order: 5
 has_children: true
+description: "TEDI handles data transformations, workflows, and task automation to streamline enterprise system integrations"
 ---
 
 # TEDI Integration Processors and Protocols

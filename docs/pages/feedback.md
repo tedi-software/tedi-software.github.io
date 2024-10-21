@@ -4,6 +4,7 @@ title: Feedback
 permalink: /feedback/
 nav_order: 7
 has_children: false
+description: "TEDI can support all of your integration needs. Contact us to request features, provide feedback, and to stay in touch for future features and functions"
 ---
 
 # Contact Us !

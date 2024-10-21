@@ -4,6 +4,7 @@ title: sftpin
 parent: Processors
 permalink: /processors/sftpin
 nav_order: 12
+description: "Use TEDI's sftpin processor to securely manage file transfers via the SFTP protocol in your integrations, ensuring seamless data exchange and protection"
 ---
 
 # sftpin Processor

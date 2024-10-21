@@ -4,6 +4,7 @@ title: xslt
 parent: Processors
 permalink: /processors/xslt
 nav_order: 16
+description: "With TEDI software you can use xslt in your integrations to perform data transformations"
 ---
 
 # xslt Processor

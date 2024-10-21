@@ -4,6 +4,7 @@ title: httpin
 parent: Processors
 permalink: /processors/httpin
 nav_order: 7
+description: "Create RESTful APIs in TEDI to streamline data movement across your organization and with vendors, enhancing integration and operational efficiency"
 ---
 
 # httpin Processor

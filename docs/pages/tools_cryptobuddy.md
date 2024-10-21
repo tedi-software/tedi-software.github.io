@@ -4,6 +4,7 @@ title: Crypto-Buddy
 parent: Tools
 permalink: /tools/cryptobuddy
 nav_order: 1
+description: "TEDI framework tool to encrypt and decrypt keys and passwords in your integration workflows"
 ---
 
 

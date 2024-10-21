@@ -3,6 +3,7 @@ layout: page
 title: Architectural Landscape
 permalink: /landscape/
 nav_order: 2
+description: "TEDI's agile architecture supports A2A and B2B systems integration with popular protocols, connectors, and workflows for seamless enterprise data flow automation"
 ---
 
 # Architectural Landscape

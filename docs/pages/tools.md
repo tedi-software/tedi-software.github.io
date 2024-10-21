@@ -4,6 +4,7 @@ title: Tools
 permalink: /tools/
 nav_order: 6
 has_children: true
+description: "Tools and utilities to support the TEDI framework in all your integrations"
 ---
 
 # TEDI Tools

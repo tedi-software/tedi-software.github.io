@@ -4,6 +4,7 @@ title: cmdin
 parent: Processors
 permalink: /processors/cmdin
 nav_order: 5
+description: "Add custom logic to your integration workflows by using the output of external commands or programs as input, enhancing automation and flexibility"
 ---
 
 # cmdin Processor

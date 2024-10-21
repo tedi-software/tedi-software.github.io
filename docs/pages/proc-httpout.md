@@ -4,6 +4,7 @@ title: httpout
 parent: Processors
 permalink: /processors/httpout
 nav_order: 8
+description: "Create integrations in TEDI to send outgoing HTTP requests, seamlessly connecting with external systems and facilitating efficient data exchange with vendors"
 ---
 
 # httpout Processor

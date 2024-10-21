@@ -4,6 +4,7 @@ title: sftpout
 parent: Processors
 permalink: /processors/sftpout
 nav_order: 13
+description: "Manage secure file transfers effortlessly with TEDI utilizing the SFTP protocol for reliable and protected data exchange in your integrations"
 ---
 
 # sftpout Processor

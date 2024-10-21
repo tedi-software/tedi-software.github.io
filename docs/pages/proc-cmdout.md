@@ -4,6 +4,7 @@ title: cmdout
 parent: Processors
 permalink: /processors/cmdout
 nav_order: 6
+description: "Leverage external commands or programs to introduce specialized logic into your integrations, giving you enhanced control over data processing"
 ---
 
 # cmdout Processor

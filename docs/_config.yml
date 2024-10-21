@@ -21,7 +21,7 @@
 title: TEDI Docs
 email: tedi-help@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
- TEDI is the future of enterprise application integration software. Use TEDI to simplify the integration of all your systems, processes, and data.
+ TEDI is the future of enterprise systems integration software. Use TEDI to simplify the integration of all your systems, processes, and data.
 baseurl: ""
 url: "https://tedi-software.github.io"
 repository: tedi-software/tedi

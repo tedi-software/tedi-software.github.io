@@ -4,6 +4,7 @@ title: natsout
 parent: Processors
 permalink: /processors/natsout
 nav_order: 10
+description: "Integrate TEDI with NATS to serve as an internal broker or enable enterprise mesh messaging, enhancing communication and scalability across your systems"
 ---
 
 # natsout Processor
