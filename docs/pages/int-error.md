@@ -4,6 +4,7 @@ title: Error Properties
 parent: Building Integrations
 permalink: /integrations/errors
 nav_order: 7
+description: "Easily configure error handling in TEDI integrations for retries, logging, and resolution to keep workflows running smoothly"
 ---
 
 # Error Property Files

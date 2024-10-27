@@ -4,6 +4,7 @@ title: SQL Datasource Properties
 parent: TEDI Components
 permalink: /components/datasources
 nav_order: 13
+description: "Manage data sources in TEDI integrations to ensure efficient data integration, retrieval, and synchronization across enterprise systems using databases"
 ---
 
 # SQL DataSource Properties

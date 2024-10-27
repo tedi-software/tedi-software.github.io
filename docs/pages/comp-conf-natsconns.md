@@ -4,6 +4,7 @@ title: NATS Connection Properties
 parent: TEDI Components
 permalink: /components/nats
 nav_order: 9
+description: "Integrate NATS messaging in TEDI integrations for lightweight, high-performance communication between enterprise components and services"
 ---
 
 # NATS Connection Properties

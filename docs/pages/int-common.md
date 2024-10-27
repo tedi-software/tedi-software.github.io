@@ -4,7 +4,9 @@ title: Common Properties
 parent: Building Integrations
 permalink: /integrations/common
 nav_order: 6
+description: "Easily reuse common configuration settings across integrations to enhance consistency and efficiency in enterprise workflows"
 ---
+
 
 # Common Property Files
 {: .fs-7 }

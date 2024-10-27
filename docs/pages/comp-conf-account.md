@@ -4,6 +4,7 @@ title: Account Properties
 parent: TEDI Components
 permalink: /components/accounts
 nav_order: 3
+description: "Manage accounts in TEDI software to secure access, streamline control, and manage user permissions across enterprise integration components"
 ---
 
 # Account Properties

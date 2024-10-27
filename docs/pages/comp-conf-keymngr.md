@@ -4,6 +4,7 @@ title: KeyManager Properties
 parent: TEDI Components
 permalink: /components/keymngr
 nav_order: 7
+description: "Managing your keys for encryption is easy in TEDI for robust security and efficient access control in enterprise systems integrations"
 ---
 
 # KeyManager Properties

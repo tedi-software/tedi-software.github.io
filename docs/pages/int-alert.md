@@ -4,6 +4,7 @@ title: Alert Properties
 parent: Building Integrations
 permalink: /integrations/alert
 nav_order: 5
+description: "Set up automated alert notifications via email or datadog in TEDI to monitor and respond to system events within your integrations"
 ---
 
 # Alert Property Files

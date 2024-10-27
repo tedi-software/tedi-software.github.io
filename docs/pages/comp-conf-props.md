@@ -4,6 +4,7 @@ title: Properties Files
 parent: TEDI Components
 permalink: /components/properties
 nav_order: 2
+description: "Configure TEDI systems integrations with customizable properties, streamlining settings to enhance enterprise component performance and adaptability"
 ---
 
 # Properties Files

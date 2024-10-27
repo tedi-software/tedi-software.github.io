@@ -4,6 +4,7 @@ title: NATS KVS Properties
 parent: TEDI Components
 permalink: /components/natskvs
 nav_order: 10
+description: "Leverage NATS Key-Value Store in TEDI integrations for efficient data storage and retrieval, enhancing communication between enterprise components"
 ---
 
 # NATS KVS Properties

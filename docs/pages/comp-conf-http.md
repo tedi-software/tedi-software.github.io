@@ -4,6 +4,7 @@ title: HTTP Properties
 parent: TEDI Components
 permalink: /components/http
 nav_order: 6
+description: "Configure HTTP settings in TEDI integrations for seamless communication and integration between A2A and B2B services using the http protocol"
 ---
 
 # HTTP Properties

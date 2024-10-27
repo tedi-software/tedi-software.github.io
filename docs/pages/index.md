@@ -29,7 +29,7 @@ In today’s fast-paced business world, companies rely on multiple software appl
 # How Does TEDI Work?
 {: .fs-6 }
 
-TEDI software uses a combination of adapters and data transformation tools to connect different applications, even if they are built on different platforms or use different data formats. The key components include:
+TEDI enterprise systems integrations software uses a combination of adapters and data transformation tools to connect different applications, even if they are built on different platforms or use different data formats. The key components include:
 
 - **Messaging Service**: This acts as the communication layer, allowing data to be transferred between systems securely and efficiently.
   

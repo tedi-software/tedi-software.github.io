@@ -4,6 +4,7 @@ title: Alert Properties
 parent: TEDI Components
 permalink: /components/alerts
 nav_order: 4
+description: "Set up and manage alerts in TEDI software for real-time monitoring and notifications across enterprise integration components"
 ---
 
 # Alert Properties

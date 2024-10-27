@@ -4,6 +4,7 @@ title: CertManager Properties
 parent: TEDI Components
 permalink: /components/certmngr
 nav_order: 5
+description: "Easily manage digital certificates in TEDI software to enhance security and streamline systems integrations across your enterprise"
 ---
 
 # CertManager Properties

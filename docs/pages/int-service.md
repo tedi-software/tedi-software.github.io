@@ -4,6 +4,7 @@ title: Service Properties
 parent: Building Integrations
 permalink: /integrations/services
 nav_order: 4
+description: "Easily build and automate workflows with TEDI by chaining adapters to integrate your enterprise services for seamless data flow and efficiency"
 ---
 
 # Service Property Files

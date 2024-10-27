@@ -4,6 +4,7 @@ title: Purging Properties
 parent: TEDI Components
 permalink: /components/purge
 nav_order: 11
+description: "Systems integration facilitates seamless communication between diverse systems, enabling efficient data exchange and enhancing overall operational efficiency"
 ---
 
 # Purging Properties

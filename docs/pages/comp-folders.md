@@ -4,6 +4,7 @@ title: Folder Layout
 parent: TEDI Components
 permalink: /components/folders
 nav_order: 1
+description: "Discover configuration management in TEDI, enabling streamlined setup and control for enterprise system integration components"
 ---
 
 # Folder Layout

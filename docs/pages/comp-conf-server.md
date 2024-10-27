@@ -4,6 +4,7 @@ title: Server Properties
 parent: TEDI Components
 permalink: /components/server
 nav_order: 12
+description: "TEDI will manage data retention in your systems integrations, allowing efficient removal of outdated information"
 ---
 
 # Server Properties

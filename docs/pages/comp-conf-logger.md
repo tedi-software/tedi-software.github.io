@@ -4,6 +4,7 @@ title: Logger Properties
 parent: TEDI Components
 permalink: /components/logger
 nav_order: 8
+description: "Customize logging in TEDI for comprehensive tracking and monitoring of activities, ensuring transparency and efficient troubleshooting in your integrations"
 ---
 
 # Logger Properties

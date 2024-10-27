@@ -4,6 +4,7 @@ title: Configuring TEDI
 parent: TEDI Components
 permalink: /components/configuration
 nav_order: 2
+description: "TEDI systems integration software has a simple directory structure for organizing components, enhancing efficiency in data management and system organization"
 ---
 
 # Configuring TEDI
