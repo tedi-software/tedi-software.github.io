@@ -23,6 +23,23 @@ Key elements featured include:
 
 ---
 
+
+
+## **Conceptual Architecture**
+{: .fs-5 }
+<img src="../../assets/images/tedi_enterprise_small.png" alt="Tedi" height="901" width="781">
+
+Conceptual
+{: .label .label-yellow } 
+Composable Architecture
+{: .label .label-blue } 
+Microservices
+{: .label .label-green }
+
+---
+
+## **System Architecture**
+{: .fs-5 }
 <img src="../../assets/images/adiag.png" alt="Tedi" height="1920" width="1080">
 
 
