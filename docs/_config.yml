@@ -61,9 +61,9 @@ plugins:
 # color_scheme: light
 color_scheme: custom
 
-favicon_ico: "/assets/images/banner-small.ico"
+favicon_ico: "/assets/images/tedi_icon_scaled.png"
 
-footer_content: "Copyright &copy; 2024 TEDI, LLC"
+footer_content: "Copyright &copy; 2025 TEDI, LLC"
 
 back_to_top: true
 back_to_top_text: "Back to top"
