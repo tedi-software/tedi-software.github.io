@@ -7,7 +7,7 @@ has_children: true
 description: "Useful engineering tools and walk-throughs — browser-based and private"
 ---
 
-# 🛠️ How-To Guides
+# How-To Guides
 {: .fs-7 }
 
 ---

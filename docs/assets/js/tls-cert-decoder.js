@@ -1,7 +1,4 @@
-// Simple X.509 decoder using Forge
-const forgeScript = document.createElement('script');
-forgeScript.src = 'https://cdn.jsdelivr.net/npm/node-forge@1.3.1/dist/forge.min.js';
-document.head.appendChild(forgeScript);
+// This script decodes a TLS certificate in PEM format and displays its details.
 
 document.addEventListener('DOMContentLoaded', function () {
   const decodeBtn = document.getElementById('decode-btn');
@@ -103,42 +100,44 @@ function decodeIP(bytes) {
 }
 
 
-function clearCert() {
-  document.getElementById('certInput').value = '';
-  document.getElementById('certOutput').textContent = '';
-}
-function copyCert() {   
-  const output = document.getElementById('certOutput').textContent;
-  if (output) {
-    navigator.clipboard.writeText(output).then(() => {
-      alert('Copied to clipboard!');
-    }).catch(err => {
-      console.error('Error copying text: ', err);
-    });
-  } else {
-    alert('Nothing to copy!');
-  }
-}
-function downloadCert() {
-  const output = document.getElementById('certOutput').textContent;
-  if (output) {
-    const blob = new Blob([output], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'decoded_cert.txt';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  } else {
-    alert('Nothing to download!');
-  }
-}
-function toggleTheme() {
-  const body = document.body;
-  const currentTheme = body.getAttribute('data-theme');
-  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-  body.setAttribute('data-theme', newTheme);
-  localStorage.setItem('theme', newTheme);
-}
+// function clearCert() {
+//   document.getElementById('certInput').value = '';
+//   document.getElementById('certOutput').textContent = '';
+// }
+// function copyCert() {   
+//   const output = document.getElementById('certOutput').textContent;
+//   if (output) {
+//     navigator.clipboard.writeText(output).then(() => {
+//       alert('Copied to clipboard!');
+//     }).catch(err => {
+//       console.error('Error copying text: ', err);
+//     });
+//   } else {
+//     alert('Nothing to copy!');
+//   }
+// }
+
+// function downloadCert() {
+//   const output = document.getElementById('certOutput').textContent;
+//   if (output) {
+//     const blob = new Blob([output], { type: 'text/plain' });
+//     const url = URL.createObjectURL(blob);
+//     const a = document.createElement('a');
+//     a.href = url;
+//     a.download = 'decoded_cert.txt';
+//     document.body.appendChild(a);
+//     a.click();
+//     document.body.removeChild(a);
+//     URL.revokeObjectURL(url);
+//   } else {
+//     alert('Nothing to download!');
+//   }
+// }
+
+// function toggleTheme() {
+//   const body = document.body;
+//   const currentTheme = body.getAttribute('data-theme');
+//   const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+//   body.setAttribute('data-theme', newTheme);
+//   localStorage.setItem('theme', newTheme);
+// }

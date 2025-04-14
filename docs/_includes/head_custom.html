@@ -152,6 +152,27 @@ customized titles
 {% elsif page.title == "Feedback" %}
 <title>TEDI | how can TEDI support your systems integration needs</title>
 
+
+{% elsif page.title == "How-To Guides" %}
+<title>TEDI | Useful engineering tools and walk-throughs</title>
+
+    {% elsif page.title == "Decode X.509 Certificates" %}
+    <title>TEDI | Use this tool to decode PEM-encoded X.509 certificates</title>
+
+    {% elsif page.title == "Convert Certificate Formats" %}
+    <title>TEDI | Convert Certificate to PEM, DER, and Base64 formats</title>
+
+    {% elsif page.title == "Inspect Private Keys" %}
+    <title>TEDI | Decode RSA private keys and extract public keys</title>
+
+    {% elsif page.title == "JWT Debugger" %}
+    <title>TEDI | Inspect, verify, and create JSON Web Tokens (JWT)</title>
+
+    
+    
+
+
+
 {% else %}
 <title>TEDI | {{ page.title | escape }}</title>
 {% endif %}
