@@ -4,7 +4,7 @@ title: Inspect Private Keys
 parent: How-To Guides
 permalink: /how-to/private-key-inspector
 description: Parse RSA private keys and extract public keys in PEM, DER, or Base64 formats — all client-side.
-nav_order: 11
+nav_order: 14
 parent: How-To Guides
 ---
 

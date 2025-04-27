@@ -4,7 +4,7 @@ title: Decode X.509 Certificates
 parent: How-To Guides
 permalink: /how-to/tls-cert-decoder
 description: Use this tool to decode PEM-encoded X.509 certificates.
-nav_order: 9
+nav_order: 16
 ---
 
 # Decode X.509 Certificates

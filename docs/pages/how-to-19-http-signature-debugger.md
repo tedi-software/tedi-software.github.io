@@ -4,7 +4,7 @@ title: HTTP Signature Debugger
 parent: How-To Guides
 permalink: /how-to/http-signature-debugger
 description: Inspect, verify, and create HTTP Signatures securely right in your browser for secure API requests using HMAC or RSA.
-nav_order: 13
+nav_order: 19
 ---
 
 # HTTP Signature Debugger & Verifier
@@ -92,7 +92,7 @@ Authorization   : Signature keyId="tedi-20201211",algorithm="hmac-sha256",header
                 <input id="httpDate" type="text" class="form-control" style="font-family: monospace; color: #789"  placeholder="e.g. Sun, 05 Jan 2014 21:31:40 GMT" />
                 <button id="autoDateBtn" class="btn btn-sm btn-outline">Now()</button>
             </div>
-            <label class="mb-1 font-weight-bold"><b>Digest Header (optional)</b></label>
+            <label class="mb-1 font-weight-bold"><b>Digest Header</b></label>
             <div class="d-flex gap-2 mb-2">
                 <input id="httpDigest" type="text"  style="font-family: monospace; color: #789"  class="form-control" />
                 <button id="computeDigestBtn" class="btn btn-sm btn-outline">Compute</button>

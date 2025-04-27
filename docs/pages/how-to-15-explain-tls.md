@@ -4,7 +4,7 @@ title: How TLS Connections Work
 parent: How-To Guides
 permalink: /how-to/how-tls-connections-work
 description: Learn the sequence of events to establish a secure TLS connection
-nav_order: 14
+nav_order: 15
 ---
 
 # TLS Handshake Sequence Explained

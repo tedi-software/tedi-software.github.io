@@ -4,7 +4,7 @@ title: Convert Certificate Formats
 parent: How-To Guides
 permalink: /how-to/tls-cert-converter
 description: Convert X.509 certificates between PEM, DER, and Base64 formats directly in your browser. No server required.
-nav_order: 10
+nav_order: 17
 ---
 
 # Certificate Format Converter

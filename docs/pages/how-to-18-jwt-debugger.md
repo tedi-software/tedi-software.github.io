@@ -4,7 +4,7 @@ title: JWT Debugger
 parent: How-To Guides
 permalink: /how-to/jwt-debugger
 description: Inspect, verify, and create JSON Web Tokens securely using all the following algorithms RSA, RSAPSS, HMAC, EC. Multi-algo, security-grade JWT debugger.
-nav_order: 12
+nav_order: 18
 ---
 
 # JWT Debugger & Verifier
