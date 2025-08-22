@@ -3,7 +3,6 @@ layout: page
 title: natsin
 parent: Processors
 permalink: /processors/natsin
-nav_order: 9
 description: "Seamlessly integrate TEDI with NATS for high-performance eventing and messaging. Subscribe to either NATS Core and JetStream for scalable real-time processing"
 ---
 

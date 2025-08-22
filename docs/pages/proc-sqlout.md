@@ -3,7 +3,6 @@ layout: page
 title: sqlout
 parent: Processors
 permalink: /processors/sqlout
-nav_order: 15
 description: "Seamlessly connect and integrate with data from one-or-more tables from popular databases"
 ---
 

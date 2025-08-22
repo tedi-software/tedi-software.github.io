@@ -3,7 +3,6 @@ layout: page
 title: sqlin
 parent: Processors
 permalink: /processors/sqlin
-nav_order: 14
 description: "TEDI can easily integrate with your databases - Oracle, MSFT SQL Server, MySQL, PostgreSQL"
 ---
 

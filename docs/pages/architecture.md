@@ -35,6 +35,8 @@ Composable Architecture
 {: .label .label-blue } 
 Microservices
 {: .label .label-green }
+AI Agent Integration
+{: .label .label-blue }
 
 ---
 
@@ -51,6 +53,8 @@ Middleware
 {: .label .label-yellow }
 System Integration
 {: .label .label-red }
+AI Agent Integration
+{: .label .label-blue }
 
 ---
 

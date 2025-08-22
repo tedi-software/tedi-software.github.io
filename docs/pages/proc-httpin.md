@@ -3,7 +3,6 @@ layout: page
 title: httpin
 parent: Processors
 permalink: /processors/httpin
-nav_order: 7
 description: "Create RESTful APIs in TEDI to streamline data movement across your organization and with vendors, enhancing integration and operational efficiency"
 ---
 
@@ -123,7 +122,8 @@ TEDI supports the following auth schemes for http:
 * **none**
 * **basic auth**
 * **certificate**
-* **jws (jwt)**
+* **jwt (jws)**
+* **bearer token**
 * **http signature**
 
 To set the scheme:

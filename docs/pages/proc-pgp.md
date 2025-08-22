@@ -3,7 +3,6 @@ layout: page
 title: pgp
 parent: Processors
 permalink: /processors/pgp
-nav_order: 11
 description: "TEDI handles file encryption using Pretty Good Privacy (PGP) to ensure secure data protection and privacy in processing while integrating between services"
 ---
 

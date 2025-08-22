@@ -103,13 +103,34 @@ customized titles
 
 
 {% elsif page.title == "Processors" %}
-<title>TEDI | HTTP, SFTP, Oracle, SQLServer, PGP, XSLT, NATS</title>
+<title>TEDI | HTTP, SFTP, Oracle, SQLServer, PGP, XSLT, NATS, AI</title>
+
+    {% elsif page.title == "ai_transform_groq" %}
+    <title>TEDI | AI-powered data transformation using GROQ models</title>
+
+    {% elsif page.title == "ai_transform_openai" %}
+    <title>TEDI | AI-powered data transformation using OpenAI models</title>
+
+    {% elsif page.title == "ai_transform_langchain" %}
+    <title>TEDI | AI-powered data transformation using LangChain</title>
 
     {% elsif page.title == "cmdin" %}
     <title>TEDI | Run an external command to provide custom logic</title>
 
     {% elsif page.title == "cmdout" %}
     <title>TEDI | Run an external command in your workflow integration</title>
+
+    {% elsif page.title == "converter_xml_to_json" %}
+    <title>TEDI | Convert XML data to JSON format</title>
+
+    {% elsif page.title == "converter_json_to_csv" %}
+    <title>TEDI | Convert JSON data to CSV format</title>
+
+    {% elsif page.title == "converter_csv_to_json" %}
+    <title>TEDI | Convert CSV data to JSON format</title>
+
+    {% elsif page.title == "converter_json_to_xml" %}
+    <title>TEDI | Convert JSON data to XML format</title>
 
     {% elsif page.title == "httpin" %}
     <title>TEDI | Adapter to integrate with RESTful HTTP APIs</title>

@@ -32,3 +32,5 @@ A2A Systems Itegration
 {: .label .label-yellow }
 B2B Systems Integration
 {: .label .label-red }
+AI Agent Integration
+{: .label .label-blue }

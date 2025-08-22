@@ -14,6 +14,8 @@ In today’s fast-paced business world, companies rely on multiple software appl
 
 **TEDI** is the key to unlocking the full potential of your business software. By connecting systems and automating workflows, TEDI helps companies operate more efficiently, reduce costs, and make smarter, data-driven decisions. If you're looking to future-proof your organization and break down operational silos, TEDI is the solution you need.
 
+**TEDI** is now **AI-capable** — enabling integration with Groq, OpenAI, and LangChain to introduce intelligent reasoning, transformation, and decision-making steps directly into your workflows. Whether you're enriching data, generating structured outputs, or applying context-aware logic, TEDI can now incorporate AI models into pipelines with ease.
+
 
 {: .important-title }
 > QUICK START
@@ -70,6 +72,12 @@ Implementing TEDI can have transformative benefits for your business:
 ## TEDI Use Cases
 {: .fs-6 }
 
+**Why pay for for expensive COTS software and iPaaS solutions ?**
+
+{: .highlight }
+> TEDI gives you a self-hosted, no-bloat integration engine to move data between systems, files, and APIs — using config files, not consultants.
+
+
 1. **Automated Order Processing**: Connect your e-commerce, inventory, and shipping systems so that orders are processed and fulfilled without manual intervention.
 
 2. **Data Consolidation**: Aggregate customer data from multiple channels (e.g., CRM, support, marketing) into a single, unified view.
@@ -78,9 +86,10 @@ Implementing TEDI can have transformative benefits for your business:
 
 4. **Business-to-Business (B2B)**: Integrate and exchange documents with 3rd party logistics, supply chains, anti-fraud, invoicing and orders, all-things business intelligence and data analytics, and much much more.
 
+
 ---
 
-## Getting Started
+## Getting Started with TEDI
 {: .fs-6 }
 
 Getting started with TEDI is easy. To begin your journey:
@@ -91,3 +100,12 @@ Getting started with TEDI is easy. To begin your journey:
 1. Learn about the TEDI [tools]({{site.baseurl}}/tools).
 1. Finally, learn how to build an integration in [Building Integrations]({{site.baseurl}}/integrations).
 
+---
+
+## Need Help or Want a Demo ?
+{: .fs-6 }
+
+- Email for support [TEDI Support](mailto:tedi-help@outlook.com)
+- Book a free 30-minute demo [TEDI Demo](mailto:tedi-help@outlook.com)
+- Have questions ? [Ask a Question](https://github.com/tedi-software/tedi/discussions).
+- [contact us]({{site.baseurl}}/contact)
